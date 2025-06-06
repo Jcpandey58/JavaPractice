@@ -3,7 +3,7 @@ package StringClasses;
 import java.util.Arrays;
 
 public class AnagramPossible {
-    //When a
+    
     public static void main(String[] args) {
         String S1 = "listenqw";
         String S2 = "siluuent";
