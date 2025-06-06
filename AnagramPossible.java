@@ -11,7 +11,7 @@ public class AnagramPossible {
         char [] ch2 = S2.toCharArray();
         Arrays.sort(ch1);
         Arrays.sort(ch2);
-        if(ch1.length==ch2.length){
+        if(ch1.length==ch2.length){   
             for(int i=0; i< ch2.length; i++) {
                 if (ch1[i]!=ch2[i]) {
                     System.out.println("Anagrom is not possible");
